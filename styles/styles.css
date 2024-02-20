@@ -1,0 +1,120 @@
+.header{
+    background-color: rgb(36, 36, 75);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+    padding:16px;
+}
+.logo{
+    font-weight: 600;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:20px;
+}
+
+ul{
+    display: flex;
+    gap:16px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:gray;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.container-1{
+    background-color:rgb(36, 36, 75) ;
+    display: flex;
+    flex:auto;
+    justify-content: center;
+    color:aliceblue;
+    padding:50px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.title-1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.left-content-1 p{
+    padding: 8px 0;
+    color:gray;
+    font-size: medium;
+}
+.left-content-1{
+    margin-right:65px;
+    max-width: 400px;
+}
+
+.button-1{
+    padding:3px 10px;
+    background-color: rgb(44, 109, 201);
+    color:white;
+    border-radius: 5px;
+    border: none;
+}
+
+.main-img{
+    height:150px;
+    width:300px;
+}
+
+.side-img{
+    height:100px;
+    width:100px;
+    margin-bottom:2px;
+    border:2px solid blue;
+    border-radius: 5px;
+}
+
+.container-2{
+padding:10px;
+margin-bottom: 32px;;
+}
+
+.title-2{
+    text-align: center;
+    padding:16px 0 32px 0;
+    font-weight: 700;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.mainbar-2{
+    display: flex;
+    justify-content: center;
+    gap:48px;
+    text-align: center;
+}
+.picture-2{
+    max-width: 100px;
+}
+
+.container-3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(223, 214, 214);
+    padding:64px;
+}
+
+.maintext-3{
+    max-width: 500px;
+    font-size: large;
+    font-style:italic;
+}
+
+.sidetext-3{
+    margin-left: 350px;
+    font-weight: 600;
+}
